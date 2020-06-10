@@ -13,3 +13,18 @@ func timeToDestination(distance:Int, speed:Int)->Int{
 }
 
 print(timeToDestination(distance:6836, speed:560))
+
+/////////////////////////////////////////////////////
+
+let adults = 2
+let students = 15 
+
+func museumEntry(_ numAdults:Int,_ numStudents:Int)-> Int {
+  let studentTicket = 14
+  let adultTicket = 25
+  let total = (studentTicket * numStudents) + (adultTicket * numAdults)
+  return total
+}
+
+print(museumEntry(adults,students))
+
